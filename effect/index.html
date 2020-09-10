@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+  <style>
+    body {
+      background-color: #00ffff;
+    }
+
+    #buttons1 button {
+      display: block;
+      float: left;
+      width: 224px;
+      height: 80px;
+      margin: 0 10px 20px;
+      padding: 0;
+      font-size: 16px;
+      letter-spacing: 0.15em;
+      color: #ebc000;
+      background-color: #fff;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+
+    #buttons1 button {
+      border: 0px solid rgba(174, 94, 155, 1.0);
+    }
+
+    #buttons1 button {
+      position: relative;
+    }
+
+    #buttons1 button .bg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 0;
+      height: 100%;
+      overflow: hidden;
+    }
+
+    #buttons1 button span span {
+      display: block;
+      width: 224px;
+      height: 80px;
+      line-height: 80px;
+      color: #fff;
+      background-color: #ae5e9b;
+      border-radius: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="page-main" role="main">
+    <div id="buttons1">
+      <h2>BUTTONS1</h2>
+      <div class="inner clearfix">
+        <button>Albatross</button>
+        <button>Bishop</button>
+        <button>Canary</button>
+        <button>Duck</button>
+        <button>Eagle</button>
+        <button>Falcon</button>
+        <button>Goose</button>
+        <button>Hawk</button>
+        <button>Ibis<span class="bg"><span>Ibis</span></button>
+        <button>Jaeger<span class="bg"><span>Jager</span></button>
+        <button>Kingfisher<span class="bg"><span>Kingfisher</span></button>
+        <button>Lark<span class="bg"><span>Lark</span></button>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
